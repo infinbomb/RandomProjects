@@ -1,6 +1,5 @@
 from tkinter import * # GUI
 import time
-import winsound # for sound
 
 app = Tk()
 app.title("myalarmclock")
@@ -24,6 +23,12 @@ my_label.pack(pady=20)
 
 my_label2 = Label(app, text="", font=("Helvetica", 14))
 my_label2.pack(pady=100)
+
+something = Button(app)
+something.pack()
+
+sometext = Text(app)
+sometext.pack()
 
 clock()
 
